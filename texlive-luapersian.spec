@@ -1,3 +1,9 @@
+# revision 23576
+# category Package
+# catalog-ctan /macros/luatex/latex/luapersian
+# catalog-date 2011-07-18 09:05:38 +0200
+# catalog-license lppl
+# catalog-version 0.1
 Name:		texlive-luapersian
 Version:	0.1
 Release:	1
@@ -104,6 +110,7 @@ Persian for LaTeX in LuaTeX.
 %doc %{_texmfdistdir}/doc/lualatex/luapersian/README
 %doc %{_texmfdistdir}/doc/lualatex/luapersian/luapersian.ltx
 %doc %{_texmfdistdir}/doc/lualatex/luapersian/luapersian.pdf
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -114,3 +121,5 @@ Persian for LaTeX in LuaTeX.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
