@@ -6,7 +6,7 @@
 # catalog-version 0.1
 Name:		texlive-luapersian
 Version:	0.1
-Release:	4
+Release:	5
 Summary:	Persian for LaTeX in LuaTeX
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/luatex/latex/luapersian
