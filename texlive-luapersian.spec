@@ -9,7 +9,7 @@ Version:	0.1
 Release:	12
 Summary:	Persian for LaTeX in LuaTeX
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/luatex/latex/luapersian
+URL:		https://www.ctan.org/tex-archive/macros/luatex/latex/luapersian
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/luapersian.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/luapersian.doc.tar.xz
